@@ -12,7 +12,7 @@ botonConsola.addEventListener('click', function () {
 let enlaceColor = document.getElementById("color");
 
 enlaceColor.addEventListener('mousemove', function () {
-    enlaceColor.style.backgroundColor  = "red"
+    enlaceColor.style.backgroundColor  = "green"
 })
 
 // 1.3. Agrega un escuchador de eventos al elemento document.body para que cuando se mueva el ratón en cualquier punto de la 
@@ -29,5 +29,16 @@ documentoEntero.addEventListener('mousemove', function (event){
 
 
 // Ejercicio 2: Escuchar eventos de teclado
-// 2.1 Agrega un escuchador de eventos al elemento document.body para que cuando se presione cualquier tecla, muestre un mensaje de alerta con 
+// 2.1. Agrega un escuchador de eventos al elemento document.body para que cuando se presione cualquier tecla, muestre un mensaje de alerta con 
 // el nombre de la tecla pulsada y su código.
+documentoEntero.addEventListener('keydown', function(event) {
+    alert(event.key)
+})
+
+// 2.2. Prueba el escuchador de eventos con diferentes teclas para verificar que muestra correctamente el nombre y el código de la tecla pulsada.
+// Junto al 2.1.
+
+
+// Ejercicio 3: Captura y Propagación
+// 3.1. Crea una lista desordenada (<ul>) con varios elementos de lista (<li>) dentro. Agrega un escuchador de eventos al elemento <ul> para que 
+// cuando se haga clic en cualquier elemento de la lista, se muestre un mensaje en la consola indicando el texto del elemento clickeado.
