@@ -54,3 +54,20 @@ listaDesordenada.addEventListener('click', function(event) {
 
 
 // Ejercicio 4: Eventos de formulario
+// 4.1. Crea un formulario HTML con campos de entrada para el nombre y el correo electrónico. Agrega un botón "Enviar" al formulario. 
+// Cuando se haga clic en el botón, valida que los campos de entrada no estén vacíos y muestra un mensaje de éxito o error en la página 
+// en función de la validación.
+
+
+// 4.2. Agrega una función que dispare un evento personalizado "formularioEnviado" cuando se envíe el formulario con éxito. 
+// Escucha este evento y muestra un mensaje personalizado en la consola cuando se dispare.
+
+
+// Ejercicio 5: Eventos personalizados
+// 5.1. Crea un nuevo evento personalizado llamado "miEvento" utilizando new CustomEvent().
+
+
+// 5.2. Agrega un escuchador de eventos a un elemento HTML (puedes usar un botón) para escuchar el evento "miEvento" y mostrar un mensaje de alerta cuando ocurra.
+
+
+// 5.3. Dispara manualmente el evento "miEvento" en el elemento y verifica que se muestra el mensaje de alerta.
