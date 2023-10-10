@@ -42,3 +42,15 @@ documentoEntero.addEventListener('keydown', function(event) {
 // Ejercicio 3: Captura y Propagación
 // 3.1. Crea una lista desordenada (<ul>) con varios elementos de lista (<li>) dentro. Agrega un escuchador de eventos al elemento <ul> para que 
 // cuando se haga clic en cualquier elemento de la lista, se muestre un mensaje en la consola indicando el texto del elemento clickeado.
+let listaDesordenada = document.querySelector("ul");
+
+listaDesordenada.addEventListener('click', function(event) {
+    console.log("Acabas de hacer click en " + event.target.innerText);
+})
+
+// 3.2. Modifica el ejercicio anterior para que el mensaje en la consola muestre el nivel de jerarquía en el DOM del elemento clickeado. 
+// Por ejemplo, si se hace clic en un <li>, el mensaje podría decir "Clickeaste en un elemento de nivel 2".
+// Por hacer
+
+
+// Ejercicio 4: Eventos de formulario
