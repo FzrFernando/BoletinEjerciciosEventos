@@ -20,13 +20,16 @@
         <li>Lista</li>
     </ul>
 
-    <form method="post" action="index.html">
-        <label>Nombre</label>
-        <input type="text">
-        <label>Correo Electrónico</label>
-        <input type="email">
-        <button type="submit" id="enviar">Enviar</button>
+    <form id="formulario">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="email">Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <button type="button" onclick="validarFormulario()">Enviar</button>
     </form>
+    <p id="mensaje"></p>
+
+    <button id="miBoton">Haz clic para activar el evento</button>
 
     <script src="Ejercicio.js"></script>
 </body>
